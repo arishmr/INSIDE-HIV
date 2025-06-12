@@ -21,36 +21,46 @@ Data analysis is carried out using the following scripts:
 #### Always run these when starting the analysis
 **01-packages**
 Load (and install, if not already installed) the required packages for analysis
+
 **02-load-data**
 Load the dataset (which can be downloaded from the DOI provided above)
 
 ### Section 2: Demographics
 **03-demos**
 Summarise participant characteristics overall and by depression group
+
 **04-summarystats**
 Summarise depression scores and biomarker concentrations overall and by depression group
 
 ### Section 3: Neuroimaging biomarkers
 **05-plots-by-score**
 Visualise neuroimaging biomarker data by PHQ-9 scores
+
 **06-correlations**
 Calculate correlations of neuroimaging biomarkers with PHQ-9 scores
+
 **06-adjusted-corr**
 Calculate partial correlations of neuroimaging biomarkers with PHQ-9 scores, adjusted for relevant sociodemographic factors
+
 **07-plots-by-group**
 Visualise neuroimaging biomarker data by PHQ-9 group (high vs low depression)
+
 **08-group-comparisons**
 Statistical comparison of neuroimaging biomarker data between PHQ-9 groups (high vs low depression)
 
 ### Section 4: Blood biomarkers
 **09-blood-plots-by-score**
 Visualise blood biomarker data by PHQ-9 scores
+
 **10-blood-correlations**
 Calculate correlations of blood biomarkers with PHQ-9 scores
+
 **11-blood-plots-by-group**
 Visualise blood biomarker data by PHQ-9 group (high vs low depression)
+
 **12-blood-group-comparisons**
 Statistical comparison of blood biomarker data between PHQ-9 groups (high vs low depression)
+
 **12-blood-imaging**
 Calculate and visualise correlations of blood biomarkers with neuroimaging biomarkers
 
